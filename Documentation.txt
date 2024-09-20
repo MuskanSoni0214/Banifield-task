@@ -1,0 +1,66 @@
+OET Preparation Course Webpage Documentation
+
+Overview
+This documentation describes the structure, functionality, and styling of the OET Preparation Course webpage. The webpage is designed for healthcare professionals preparing for the OET exam and includes sections for course details, features, demo videos, testimonials, FAQs, and terms & conditions.
+
+File Structure
+- index.html: The main HTML file containing the webpage structure.
+- styles.css: The CSS file for styling the webpage.
+- script.js: The JavaScript file for interactivity.
+
+HTML (index.html)
+Sections
+1. Header Section
+   - Contains a compelling title, description, and a call-to-action button ("Enroll Now").
+
+2. Key Features Section
+   - Lists key features of the course: Expert Instructors, Interactive Learning Modules, Personalized Feedback.
+   - Each feature is visually distinct and provides a brief description.
+
+3. Course Structure Section
+   - Displays a timeline of the course structure.
+   - Each week includes a brief description and a "Know More" button that reveals more details about the module.
+
+4. Demo Videos Section
+   - Contains demo videos showcasing course content.
+   - Videos are displayed horizontally for easy viewing.
+
+5. Testimonials Section
+   - Includes quotes from students about their experience with the course.
+
+6. FAQ Section
+   - Provides answers to frequently asked questions.
+   - Each question can be clicked to reveal the answer.
+
+7. Footer Section
+   - Contains copyright information, contact link, and terms & conditions link.
+
+JavaScript Functions (script.js)
+- toggleDetails(id): Toggles the visibility of additional details when the "Know More" button is clicked.
+- Adds interactivity to FAQ questions to show/hide answers when clicked.
+
+CSS Styling (styles.css)
+- Responsive Design: The webpage is styled using flexible units and media queries to ensure it looks good on all devices.
+- Button Styles: Custom styles for buttons to enhance visibility and interaction, including hover effects.
+- Layout: Use of Flexbox and Grid for an organized and responsive layout.
+
+Key Features Explained
+1. Header
+   - Style: Background color matches the course theme, ensuring it stands out.
+   - Call-to-Action: The "Enroll Now" button is styled for visibility with appropriate padding and margin.
+
+2. Features Section
+   - Expert Instructors: Details about experienced healthcare professionals teaching the course.
+   - Interactive Learning Modules: Information on real-life simulations and case studies.
+   - Personalized Feedback: Emphasis on tailored feedback for students to improve.
+
+3. Course Structure
+   - Each week has a "Know More" button that reveals more information about the module when clicked.
+   - Styling aligns with the header color for consistency.
+
+4. Demo Videos
+   - Videos are presented in a horizontal layout for user convenience.
+   - Sufficient size for better visibility.
+
+5. Terms & Conditions
+   - Clicking the link opens a modal box displaying the terms and conditions of the course.

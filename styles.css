@@ -1,0 +1,230 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Limit maximum width */
+    margin: auto;
+}
+
+/* Header styles */
+.header {
+    background: #2980b9;
+    color: white;
+    padding: 50px 20px; /* Adjust padding for smaller screens */
+    text-align: center;
+}
+
+/* CTA Button */
+.cta-button {
+    background: #3498db;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0; /* Added margin */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Align properly */
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #2980b9; /* Darker shade on hover */
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px; /* Adjust padding for smaller screens */
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: space-between;
+}
+
+.feature-item {
+    flex: 1;
+    min-width: 280px; /* Minimum width for feature items */
+    text-align: center;
+    margin: 20px; /* Added margin for spacing */
+}
+
+.feature-item h3 {
+    margin: 10px 0;
+}
+
+/* Course Structure */
+.course-structure {
+    padding: 50px 20px; /* Adjust padding for smaller screens */
+}
+
+.timeline {
+    margin-top: 20px;
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+}
+
+/* Know More Button */
+.know-more-btn {
+    background: #3498db; /* Same as header background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.know-more-btn:hover {
+    background: #2980b9; /* Darker shade on hover */
+}
+
+/* Video Section */
+.demo-videos {
+    padding: 50px 20px; /* Adjust padding for smaller screens */
+}
+
+.video-grid-horizontal {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: space-around;
+}
+
+.video-item {
+    flex: 1;
+    min-width: 280px; /* Minimum width for video items */
+    margin: 10px; /* Added margin for spacing */
+}
+
+video {
+    width: 100%; /* Make videos responsive */
+    height: 300px; /* Adjust height */
+}
+
+/* FAQ Section */
+.faq {
+    padding: 50px 20px; /* Adjust padding for smaller screens */
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    background: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background: #ecf0f1;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close-btn {
+    cursor: pointer;
+    float: right;
+    font-size: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Styles for images */
+.feature-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Added styles for spacing */
+.details {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header {
+        padding: 40px 20px;
+    }
+
+    .features-grid {
+        flex-direction: column; /* Stack features vertically */
+    }
+
+    .video-grid-horizontal {
+        flex-direction: column; /* Stack videos vertically */
+    }
+
+    video {
+        height: 250px; /* Adjust height for smaller screens */
+    }
+}
